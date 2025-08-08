@@ -13,7 +13,7 @@ namespace InterviewBot.Services
         public string FromEmail { get; set; } = string.Empty;
         public string FromName { get; set; } = string.Empty;
 
-        public bool EnableSsl { get; set; } = true;
+
     }
 
     public interface IEmailService
@@ -39,8 +39,7 @@ namespace InterviewBot.Services
                 SmtpUsername = config["Email:SmtpUsername"] ?? string.Empty,
                 SmtpPassword = config["Email:SmtpPassword"] ?? string.Empty,
                 FromEmail = config["Email:FromEmail"] ?? string.Empty,
-                FromName = config["Email:FromName"] ?? "InterviewBot",
-                EnableSsl = true
+                FromName = config["Email:FromName"] ?? "InterviewBot"
             };
         }
 
@@ -74,7 +73,7 @@ namespace InterviewBot.Services
                 {
                     new { Server = "smtp.gmail.com", Port = 587, UseSsl = true },
                     new { Server = "smtp.gmail.com", Port = 465, UseSsl = true },
-                    new { Server = "smtp.gmail.com", Port = 25, UseSsl = false }
+                    new { Server = "smtp.gmail.com", Port = 25, UseSsl= true }
                 };
 
                 Exception? lastException = null;

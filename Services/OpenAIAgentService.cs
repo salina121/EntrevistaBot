@@ -27,7 +27,7 @@ namespace InterviewBot.Services
             // Load configuration
             _config = new OpenAIConfig
             {
-                ApiKey = "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",
+                ApiKey = "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",
                 Model = config["OpenAI:Model"] ?? "gpt-4",
                 MaxTokens = int.TryParse(config["OpenAI:MaxTokens"], out var maxTokens) ? maxTokens : 2000,
                 Temperature = 0.7
