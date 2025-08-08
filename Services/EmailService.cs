@@ -12,6 +12,8 @@ namespace InterviewBot.Services
         public string SmtpPassword { get; set; } = string.Empty;
         public string FromEmail { get; set; } = string.Empty;
         public string FromName { get; set; } = string.Empty;
+
+        public bool EnableSsl { get; set; } = true;
     }
 
     public interface IEmailService
@@ -37,7 +39,8 @@ namespace InterviewBot.Services
                 SmtpUsername = config["Email:SmtpUsername"] ?? string.Empty,
                 SmtpPassword = config["Email:SmtpPassword"] ?? string.Empty,
                 FromEmail = config["Email:FromEmail"] ?? string.Empty,
-                FromName = config["Email:FromName"] ?? "InterviewBot"
+                FromName = config["Email:FromName"] ?? "InterviewBot",
+                EnableSsl = true
             };
         }
 

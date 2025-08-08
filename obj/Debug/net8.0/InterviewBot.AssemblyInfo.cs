@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InterviewBot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0fecb910a967bcf2525402b82fa119327db061c4")]
 [assembly: System.Reflection.AssemblyProductAttribute("InterviewBot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InterviewBot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

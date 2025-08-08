@@ -562,3 +562,5 @@ C:\Users\david\source\repos\Entrevista\InterviewBot\obj\Debug\net8.0\InterviewBo
 C:\Users\david\source\repos\Entrevista\InterviewBot\obj\Debug\net8.0\InterviewBot.genruntimeconfig.cache
 C:\Users\david\source\repos\Entrevista\InterviewBot\obj\Debug\net8.0\ref\InterviewBot.dll
 C:\Users\david\source\repos\Entrevista\InterviewBot\bin\Debug\net8.0\captain-definition.json
+C:\Users\david\source\repos\Entrevista\InterviewBot\obj\Debug\net8.0\InterviewBot.sourcelink.json
+C:\Users\david\source\repos\Entrevista\InterviewBot\bin\Debug\net8.0\nuget.config
